@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color:#F3EEE8; */
+}
+.main-section{
+    background-color: rgb(233, 223, 223);
+    width: 100%;
+    height: 100vh; 
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+.sub-div{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid rgb(255, 0, 0); */
+}
+.my-nav{
+    margin-left: 3rem;
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 100%;
+}
+.my-nav ul{
+    /* border: 2px solid blue; */
+    margin-left: 5rem;
+}
+.sub-div .my-nav ul li{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 14px;
+    text-align: center;
+}
+.sub-div .my-nav .home{
+    font-family: Varta;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+.sub-div .my-nav .elegance{
+    font-family: Merriweather;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 70px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: left;
+}
+.home-design{
+    /* border: 2px solid red; */
+    margin-left: 5rem;
+    margin-top: 5rem;
+    width: 50%;
+
+}
+.my-image{
+    background-image: url(./pics/avatar.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 100%;
+}
+h1, h2, h3, h4, h5, h6{
+    color: brown;
+    font-size: 25px;
+    font-weight: bold;
+}
+.second-div{
+    background-color: rgb(233, 223, 223);
+    width: 100%; display: flex;
+    height: 50vh;
+    /* background-color: aqua; */
+}
+.second-div .left-div{
+      /* border: 2px solid rgb(255, 0, 0); */
+    width: 50%;
+    height: 100%;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.second-div .left-div h2{
+    font-family: Merriweather;
+    font-size: 55px;
+    font-weight: 300;
+    line-height: 60px;
+    letter-spacing: -0.6000000238418579px;
+    text-align: left;
+}
+.second-div .left-div .div-div{
+    /* border: 2px solid green; */
+    margin-left: 5rem;
+}
+.second-div .right-div{
+    /* border: 2px solid rgb(255, 94, 0); */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.right-div .four-div{
+    /* border: 2px solid red; */
+    height: 50%;
+    width: 50%;
+    padding: 50px;
+
+}
+.final-sec{
+    background-color: white;
+    width: 100%;
+    margin-left: 5rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 40px 5px;
+}
+.be-aware{
+    background-color: white;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.subscribe-div{
+    background-color: white;
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-div a{
+    background-color: black;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
